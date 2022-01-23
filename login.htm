@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="bootstrap.css">
+   <link rel="icon" href="logo.svg">
+   <link rel="stylesheet" href="login.css">
+    <style>
+        body{
+            height: 600px;
+            background-image: url(Photo/Cover%20-%20Copy.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin:0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+        .box{
+            width: 500px;
+            padding: 40px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+        .box h1{
+            color: black;
+            font-weight: 500;
+        }
+        .box input[type = "text"],.box input[type = "password"]{
+            border: 0;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid yellow;
+            padding: 14px 10px;
+            width: 200px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            transition: 0.25s;
+        }
+        .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+            width: 280px;
+            border-color: lime;
+        }
+        .box input[type = "button"]{
+             border 0;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid lime;
+            padding: 14px 40px;
+            width: 200px;
+            outline: white;
+            border-radius: 24px;
+            transition: 0.25s;
+            cursor: pointer;
+            color: white;
+        }
+        .box input[type = "button"]:hover{
+            background: limegreen;
+            border-color:yellow;
+        }
+        .head{
+            height: 550px;
+        }
+    </style>
+</head>
+<body id="body" oncontextmenu="return false">
+       <div class="grad"></div>
+        <div class="head">
+        <div class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <a href="index.htm" class="navbar-brand"><h4 class="ttt"><img src="logo.png" height="35px " width="100px">BALCONI BAKCHODI</h4></a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="" class="nav-link">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">About</a>
+                </li>
+                    <a href="" class="btn btn-sm btn-warning aa">Create New Account</a>
+            </ul>
+        </div>
+    <form class="box" action="#" method="POST">
+        <h1>
+            SIGN UP
+        </h1>
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <input type="button" name="" value="LOGIN" onclick="check(this.form)">
+    </form>
+     <script language="javascript">
+             function check(form)
+            {
+                if(form.username.value=="Ankit@123" && form.password.value=="1234")
+                    {
+                        window.open('ankit.html')
+                    }
+                else if(form.username.value=="Ayush@123" && form.password.value=="1234")
+                    {
+                        window.open('ayush.html')
+                    }
+                else if(form.username.value=="Vasto@123" && form.password.value=="1234")
+                    {
+                        window.open('vasto.html')
+                    }
+                else if(form.username.value=="Rudra@123" && form.password.value=="1234")
+                    {
+                        window.open('rudra.html')
+                    }
+                else if(form.username.value=="Pratik@123" && form.password.value=="1234")
+                    {
+                        window.open('pratik.html')
+                    }
+                else if(form.username.value=="Shubham@123" && form.password.value=="1234")
+                    {
+                        window.open('shubham.html')
+                    }
+                else if(form.username.value=="Sunny@123" && form.password.value=="1234")
+                    {
+                        window.open('sunny.html')
+                    }
+                else if(form.username.value=="Raghu@123" && form.password.value=="1234")
+                    {
+                        window.open('teddy.html')
+                    }
+                else if(form.username.value=="Harsh@123" && form.password.value=="1234")
+                    {
+                        window.open('harsh1.htm')
+                    }
+                else if(form.username.value=="Niraj@123" && form.password.value=="1234")
+                    {
+                        window.open('niraj.html')
+                    }
+                else if(form.username.value=="Vickey@123" && form.password.value=="1234")
+                    {
+                        window.open('vickynew1.html')
+                    }
+                
+                else
+                {
+                    alert("The username and password you entered don't match")
+                }
+            }
+        </script>
+    </div>
+     
+        <!--break-->
+        <div class="navbar navbar-expand-lg navbar-dark dd">
+       <div class="container">
+       <div class="ff">
+        <a href=""><h1 class="ee">Address</h1></a>
+        <br>
+        <br>
+        <h1 class="ee">Balconi Bakchodi</h1>
+        <h2 class="gg">Kp-7, KIIT, Bhubaneshwar, Orissa</h2>
+        <h2 class="gg">Tel: + 91 22 35637000 / 7001</h2>
+        <h2 class="gg">Email: BalconiBakchodi@kiit.ac.in</h2>
+        <h2 class="gg">Website: www.BB@kiit.ac.in</h2>
+        </div>
+        
+        <div class="hh"></div>
+        
+        <div class="ii">
+        <a href=""><h1 class="ee">Links</h1></a><br><br>
+        <table class="jj">
+            <tr>
+                <td><a href="" class="text-dark">Home</a></td>
+                <td><a href="" class="text-dark">Bakchodi</a></td>
+            </tr>
+            <tr>
+                <td><a href="" class="text-dark">Join Us</a></td>
+                <td><a href="" class="text-dark">Facilities</a></td>
+            </tr>
+            <tr>
+                <td><a href="" class="text-dark">Hot Topics</a></td>
+                <td><a href="" class="text-dark">Emergency</a></td>
+            </tr>
+            <tr>
+                <td><a href="" class="text-dark">Calander</a></td>
+                <td><a href="" class="text-dark">Awards</a></td>
+            </tr>
+            <tr>
+                <td><a href="" class="text-dark">About Us</a></td>
+                <td><a href="" class="text-dark">Diary</a></td>
+            </tr>
+            <tr>
+                <td><a href="" class="text-dark">Contact Us</a></td>
+                <td><a href="" class="text-dark">location</a></td>
+            </tr>
+        </table>
+        </div>
+        
+        
+        <div class="hh"></div>
+        
+        <div class="nn">
+        <a href=""><h1 class="ee">For joining</h1></a><br><br><br>
+        <h1 class="gg">Please email your queries to</h1>
+        <p><a href="">Balconibakchodi@kiit.ac.in</a></p>
+        <div class="yy"></div>
+        <a href=""><img src="cisce_logo.jpg" alt="" class="zz"><img src="ib_logo.jpg" alt="" class="zz"><img src="cambridge_logo.jpg" alt="" class="zz"></a>
+            <a href=""><h1 class="ee">&#xa9; Balconi Bakchodi</h1></a>
+        </div>
+        </div>
+        
+    </div>
+</body>
+</html>

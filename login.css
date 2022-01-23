@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+}
+.aa{
+    height: 30px;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.ddd{
+    height: 600px;
+    background-image: url(Photo/bakconi_cover2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cc1{
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-top: 200px;
+    width: 350px;
+    height: 45px;
+}
+.cc2{
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 350px;
+    height: 45px;
+}
+.cc3{
+    margin-top: 30px;
+}
+.bb{
+     height: 600px;
+    background-image: url(Photo/Cover%20-%20Copy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+.dd{
+    background-color: #ffb327;
+    width: 100%;
+    height: 300px;
+    float: left;
+    
+}
+.ee{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    float: left;
+}
+.ff{
+    height: 200px;
+    width: 300px;
+}
+.gg{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    float: left;
+}
+.hh{
+     height:150px;
+    width: 1px;
+    background-color: white;
+    float: left;
+}
+.ii{
+    height: 250px;
+    width:250px;
+   font-family: sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    float: left;
+    margin-top: 15px;
+}
+.jj{
+    height: 150px;
+    width:230px;
+   font-family: sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.nn{
+    height: 250px;
+    width: 300px;
+}
+.yy{
+    height: 1px;
+    width: 300px;
+    background-color: white;
+}
+.zz{
+    margin-left: 12px;
+    padding-top: 5px;
+}

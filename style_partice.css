@@ -1,0 +1,211 @@
+.aa{
+    height: 30px;
+    border-radius: 2px;
+    width: 70px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.bb{
+    margin-top: 20px;
+}
+.cc{
+    border-radius: 50%;
+    height: 100px;
+}
+
+.aaa{
+    width: 100%; 
+    margin-top: 15px;
+    background-color: darkcyan;
+}
+.bbb{
+    margin-left: 20px;
+}
+.bbb1{
+    padding: 20px;
+    text-decoration: none;
+}
+.ccc{
+    background-color:cyan;
+    background-image:url(Photo/wallpaper2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hhh{
+    background: linear-gradient(grey,white);
+}
+.ddd{
+      background: linear-gradient(grey,white);
+}
+.ddd1:hover{
+      background-color: white;
+    color: black;
+    text-decoration: none;
+    animation-name: my ;
+    animation-duration: 3s;
+    transition: 0.6s;
+}
+
+
+@keyframes my{
+    0%{ 
+        background-color: white;
+        color: black;   
+    }
+    50%{
+        background-color:blue;
+    color: white;   
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+    100%{
+       background-color: white;
+    color: black;   
+    }
+}
+
+
+.ddd1{
+     background-color:black;
+    color: white;
+    text-decoration: none;
+}
+.ddd2{
+    background-image: url(Photo/Cover%20-%20Copy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.kkk{
+     background-color:white;
+    color: black;
+}
+.kkk:hover{
+     background-color:black;
+    color: white;
+}
+.ttt{
+    color:white;
+}
+
+
+
+
+.a1{
+    border-radius: 50%;
+}
+
+
+
+
+
+.dd{
+    background-color: #ffb327;
+    width: 100%;
+    height: 300px;
+    float: left;
+    
+}
+.ee{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    float: left;
+    margin-top:;
+}
+.ff{
+    height: 200px;
+    width: 300px;
+}
+.gg{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    float: left;
+}
+.hh{
+     height:150px;
+    width: 1px;
+    background-color: white;
+    float: left;
+}
+.ii{
+    height: 250px;
+    width:250px;
+   font-family: sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    float: left;
+    margin-top: 15px;
+}
+.jj{
+    height: 150px;
+    width:230px;
+   font-family: sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.nn{
+    height: 250px;
+    width: 300px;
+}
+.yy{
+    height: 1px;
+    width: 300px;
+    background-color: white;
+}
+.zz{
+    margin-left: 12px;
+    padding-top: 5px;
+}
+
+{ul li ul div table{
+    display: none;
+    position: absolute;
+}
+ul li ul div{
+    display: none;
+    position: absolute;
+}
+ul li:hover ul div{
+    display: block;
+}
+ul li:hover ul div table{
+    display:block;
+}}
+
+
+
+{ul li div{
+    display: none;
+    position: absolute;
+}
+ul li:hover div{
+    display: block;
+    background-color: white;
+}
+}
+
+.hhhh{
+    width: 100px;
+}
+
+
+.ss{
+    margin-right: 70px;
+}
+
+.vv{
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.side1{
+    margin-left: 5px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
